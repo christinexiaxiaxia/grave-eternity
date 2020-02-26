@@ -1,0 +1,115 @@
+
+@font-face {
+	font-family: Daubenton;
+	src: url('fonts/Daubenton.otf');
+}
+
+
+
+
+/*STRUCTURE*/
+
+* {
+	font-size: 22px;
+	cursor: crosshair;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/*::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}*/
+
+body {
+	/*background-color: rgb(255,220,150);*/
+	background-color: rgb(255,0,0);
+	margin: 7rem;
+}
+
+.wrapper {
+	display: grid;
+	grid-template: auto / 1fr;
+	grid-gap: 2rem;
+	justify-items: center;
+}
+
+
+/*BUTTON*/
+
+button {
+	height: auto;
+	padding: 0;
+	background-color: rgb(255,0,0);
+	border: none;
+
+	transition-duration: 0.8s;
+}
+
+button img {
+	width: 100%;
+	opacity: 0.6;
+	mix-blend-mode: multiply;
+
+	transition-duration: 1s;
+}
+
+button img:hover {
+	opacity: 1;
+
+	transition-duration: 1s;
+}
+
+button:hover {
+	cursor: pointer;
+	transition-duration: 0.8s;
+}
+
+button:focus {
+	border: none;
+	outline: none;
+}
+
+
+
+/*IMAGES*/
+
+img {
+	width: 100%;
+	/*margin-bottom: -6px*/;
+
+	mix-blend-mode: multiply;
+}
+
+.img-container {
+	width: 100%;
+	background-color: rgb(255,0,0);
+}
+
+
+
+/*TEXT*/
+
+p,
+a,
+b,
+i,
+span {
+	font-family: Daubenton;
+	font-size: 3rem;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+
+	color: black;
+}
+
+
+
+
