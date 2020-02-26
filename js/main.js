@@ -25,7 +25,7 @@ fetch(fileUrl)
 
 // BUTTON CLICK STUFF
 
-$('button').click(function(){
+// $('button').click(function(){
 
     // BYE BUTTON, BYE CURSOR
 
@@ -41,7 +41,7 @@ $('button').click(function(){
 
     var body = $("html, body");
 
-    setTimeout(function(){
+    // setTimeout(function(){
 
         $('.wrapper').marquee({
             speed: 1,
@@ -51,7 +51,7 @@ $('button').click(function(){
             startVisible: true
         })
 
-    },7000)
+    // },7000)
 
     // LOAD DATA INTO VARIABLE https://stackoverflow.com/questions/2177548/load-json-into-variable
 
@@ -106,7 +106,7 @@ $('button').click(function(){
     }
 
 
-})
+// })
 
 
 
