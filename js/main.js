@@ -25,7 +25,7 @@ fetch(fileUrl)
 
 // BUTTON CLICK STUFF
 
-// $('button').click(function(){
+$('button').click(function(){
 
     // BYE BUTTON, BYE CURSOR
 
@@ -106,7 +106,7 @@ fetch(fileUrl)
     }
 
 
-// })
+})
 
 
 
