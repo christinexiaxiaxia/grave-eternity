@@ -99,19 +99,6 @@ img {
 
 /*TEXT*/
 
-.intro,
-button {
-	font-family: serif;
-	font-size: 2rem;
-}
-
-.intro,
-i.intro {
-	text-transform: none;
-
-	transition-duration: 0.3s;
-}
-
 p,
 a,
 b,
@@ -125,6 +112,19 @@ span {
 	text-decoration: none;
 
 	color: black;
+}
+
+.intro,
+button {
+	font-family: serif;
+	font-size: 2rem;
+}
+
+.intro,
+i.intro {
+	text-transform: none;
+
+	transition-duration: 0.3s;
 }
 
 
