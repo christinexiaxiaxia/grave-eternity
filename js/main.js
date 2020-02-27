@@ -19,8 +19,8 @@ $('button').click(function(){
 
     // BYE BUTTON, BYE CURSOR
 
-    $(this).css({'opacity':'0','height':'0'});
-    $('button img').css({'height':'0'});
+    $(this).css({'opacity':'0'});
+    $('p.intro').css({'opacity':'0'});
 
     // ANIMATED SCROLL https://github.com/aamirafridi/jQuery.Marquee
     // https://stackoverflow.com/questions/16475198/jquery-scrolltop-animation
