@@ -127,6 +127,15 @@ i.intro {
 	transition-duration: 0.3s;
 }
 
+a.intro:hover {
+	font-style: italic;
+	cursor: alias;
+}
+
+a {
+	text-decoration: underline;
+}
+
 
 
 
