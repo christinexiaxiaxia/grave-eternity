@@ -15,16 +15,17 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+	width: 0px;
 }
 
-/*::-webkit-scrollbar-track {
-  background: white;
+::-moz-selection {
+	color: rgba(255,0,0,1);
+	background-color: rgba(0,0,0,0.99);
 }
-
-::-webkit-scrollbar-thumb {
-  background: black;
-}*/
+::selection {
+	color: rgba(255,0,0,1);
+	background-color: rgba(0,0,0,0.99);
+}
 
 body {
 	/*background-color: rgb(255,220,150);*/
@@ -43,10 +44,12 @@ body {
 /*BUTTON*/
 
 button {
+	width: 100%;
 	height: auto;
 	padding: 0;
 	background-color: rgb(255,0,0);
 	border: none;
+	text-align: center;
 
 	transition-duration: 0.8s;
 }
@@ -67,6 +70,7 @@ button img:hover {
 
 button:hover {
 	cursor: pointer;
+	font-style: italic;
 	transition-duration: 0.8s;
 }
 
@@ -109,6 +113,21 @@ span {
 
 	color: black;
 }
+
+.intro,
+button {
+	font-family: serif;
+	font-size: 2rem;
+}
+
+p.intro,
+i.intro {
+	text-transform: none;
+
+	transition-duration: 0.3s;
+}
+
+
 
 
 
