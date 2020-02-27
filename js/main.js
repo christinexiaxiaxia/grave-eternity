@@ -28,7 +28,7 @@ $('button').click(function(){
     setTimeout(function(){
 
         $('.wrapper').marquee({
-            speed: 3,
+            speed: 4,
             direction: 'up',
             duplicated: true,
             startVisible: true
