@@ -1,6 +1,6 @@
 
 @font-face {
-	font-family: Daubenton;
+	font-family: "Daubenton";
 	src: url('fonts/Daubenton.otf');
 }
 
@@ -117,7 +117,7 @@ a,
 b,
 i,
 span {
-	font-family: Daubenton;
+	font-family: "Daubenton";
 	font-size: 3rem;
 	font-weight: normal;
 	text-transform: uppercase;
